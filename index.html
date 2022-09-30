@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <title>Miles Inada | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body class="container-body">
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+  
+  
+  <header>
+    <h1> <span class="name"></span> </h1>
+    <p>Hi I'm Miles. Thanks for taking a look at my portfolio.  
+    <div>
+      <a class="btn btn-warning btn-sm" href="projects.html">Projects</a>
+      <button onclick="displayContact()" id="contact-btn" class="btn btn-info btn-sm" >Contact</button>
+      <div id="particles-btn">
+        <button  class="btn form-check form-switch">
+          <input class="form-check-input" type="checkbox" onclick="noParticles()" id="flexSwitchCheckDefault" checked>
+          <label class="form-check-label" for="flexSwitchCheckDefault">Particles</label>
+        </button>
+
+      </div>
+    </div>
+    </div> 
+    </p>
+    <div id="contact" style="display: none;"> 
+      <h5>milesinada219@gmail.com</h5>
+      <h5>(808)346-9737</h5>
+      <h5><a href="https://www.linkedin.com/in/miles-inada-412990238/"><i class="bi bi-linkedin"></i></a><a href="https://github.com/milesinada"><i class="bi bi-github"></i></a></h5>
+    </div>
+  </header>
+  <div id="particles-js"></div>
+  <main class="delay-visible">
+    <div class="animated-skills-chart">
+      <div class="skills">
+        <h2>HTML</h2>
+        <div class="progress-bar-animated">
+          <div class="html"><span>90%</span></div>
+        </div>
+        <h2>CSS</h2>
+        <div class="progress-bar-animated">
+          <div class="css"><span>85%</span></div>
+        </div>
+        <h2>JavaScript</h2>
+        <div class="progress-bar-animated">
+          <div class="javascript"><span>90%</span></div>
+        </div>
+        <h2>React</h2>
+        <div class="progress-bar-animated">
+          <div class="react"><span>85%</span></div>
+        </div>
+        <h2>Python</h2>
+        <div class="progress-bar-animated">
+          <div class="python"><span>75%</span></div>
+        </div>
+        <h2>Django</h2>
+        <div class="progress-bar-animated">
+          <div class="django"><span>80%</span></div>
+        </div>
+        <h2>Learning New Tech!</h2>
+        <div class="progress-bar-animated">
+          <div class="new-tech"><span>110%</span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <script src="particles.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  
+  <script>
+    var typingEffect = new Typed(".name",{
+      strings : ["graphic designer", "father", "web developer", "Miles Inada"],
+      loop : false,
+      typeSpeed : 35,
+      backSpeed : 50,
+      backDelay : 300
+    });
+  </script>
+  <script>
+    function displayContact(){
+      let el = document.getElementById('contact');
+      if (el.style.display ==="none"){
+        el.style.display = "block";
+      }else {
+        el.style.display ="none";
+      }
+    }
+  </script>
+</body>
+
+</html>

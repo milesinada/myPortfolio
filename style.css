@@ -1,0 +1,226 @@
+.container-body {
+    background-color: rgb(26, 23, 27);
+    color: rgb(32, 26, 26);
+}
+
+header {
+    padding: 2%;
+    text-align: center;
+    background-color: rgb(40, 138, 184);
+}
+header p {
+    font-weight: 500;
+}
+header span{
+    color: white;
+}
+header .btn {
+    margin-left: 20px;
+}
+
+#contact{
+    color:rgb(32, 26, 26);
+}
+
+#particles-btn .btn:not([disabled]):not(.disabled).active,
+#particles-btn .btn:not([disabled]):not(.disabled):active,
+#particles-btn .btn:not([disabled]):not(.disabled).hover,
+#particles-btn .btn:not([disabled]):not(.disabled):hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+#particles-js {
+position: absolute;
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50% 50%;
+} 
+.count-particles {
+background: #000022;
+position: absolute;
+top: 48px;
+left: 0;
+width: 80px;
+color: #13e8e9;
+font-size: 0.8em;
+text-align: left;
+text-indent: 4px;
+line-height: 14px;
+padding-bottom: 2px;
+font-weight: bold;
+}
+.js-count-particles {
+font-size: 1.1em;
+}
+#stats,
+.count-particles {
+margin-top: 5px;
+margin-left: 5px;
+}
+#stats {
+border-radius: 3px 3px 0 0;
+overflow: hidden;
+}
+.count-particles {
+border-radius: 0 0 3px 3px;
+}
+
+.bi{
+    color: black;
+    margin-left: 10px;
+}
+.bi:hover{
+    color:#fff;
+}
+.delay-visible{
+    animation: fadeIn 9s;
+}
+.animated-skills-chart{
+    width: 100%;
+    height: 35em;
+    background:rgb(26, 23, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animated-skills-chart{
+    margin-bottom: 2em ;
+}
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top:20px ;
+    margin-bottom: 5px;
+    color: #fff;
+
+}
+.progress-bar-animated{
+    background: rgb(92, 92, 55);
+    width: 900px;
+    height: 5px;
+    border-radius: 5px;
+}
+.progress-bar-animated div{
+    height: 5px;
+    border-radius:5px ;
+    width: 0%;
+}
+.progress-bar-animated div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(26, 23, 27);
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background: aqua;
+    animation: html 2s linear forwards;
+    animation-delay: 3.5s;
+
+}
+.css{
+    background: rgb(152, 147, 51);
+    animation: css 2s linear forwards;
+    animation-delay: 5.5s;
+
+}
+.javascript{
+    background: rgb(37, 102, 25);
+    animation: javascript 2s linear forwards;
+    animation-delay: 5.8s;
+
+
+}
+.react{
+    background: rgb(65, 39, 193);
+    animation: react 2s linear forwards;
+    animation-delay: 6s;
+
+}
+.python{
+    background: rgb(193, 106, 39);
+    animation: python 2s linear forwards;
+    animation-delay: 6.3s;
+
+}
+.django{
+    background: rgb(193, 39, 185);
+    animation: django 2s linear forwards;
+    animation-delay: 6.6s;
+
+}
+.new-tech{
+    background-image: url("https://thumbs.gfycat.com/HonestCoolDorado.webp");
+    animation: new-tech 2s linear forwards;
+    animation-delay: 6.8s;
+
+}
+.html span{
+    border: 1px solid  ;
+}
+.css span{
+    border: 1px solid  ;
+}
+.javascript span{
+    border: 1px solid  ;
+}
+.python span{
+    border: 1px solid  ;
+}
+.react span{
+    border: 1px solid  ;
+}
+.django span{
+    border: 1px solid  ;
+}
+.new-tech span{
+    border: 1px solid  ;
+}
+@keyframes html{
+    100%{
+        width:90% ;
+    }
+}
+@keyframes css{
+    100%{
+        width:85% ;
+    }
+}
+@keyframes javascript{
+    100%{
+        width:90% ;
+    }
+}
+@keyframes react{
+    100%{
+        width:85% ;
+    }
+}
+@keyframes python{
+    100%{
+        width:75% ;
+    }
+}
+@keyframes django{
+    100%{
+        width:80% ;
+    }
+}
+@keyframes new-tech{
+    100%{
+        width:110% ;
+    }
+}
+@keyframes fadeIn{
+    0% { opacity: 0;}
+    50% { opacity: 0;}
+    100% {opacity: 1;}
+}
