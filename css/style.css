@@ -94,11 +94,10 @@ border-radius: 0 0 3px 3px;
     margin-top:20px ;
     margin-bottom: 5px;
     color: #fff;
-
 }
 .progress-bar-animated{
     background: rgb(92, 92, 55);
-    width: 900px;
+    width: 1500px;
     height: 5px;
     border-radius: 5px;
 }
@@ -119,6 +118,57 @@ border-radius: 0 0 3px 3px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (max-width:1900px){
+    .progress-bar-animated{
+        width: 1200px;
+    }
+}
+@media only screen and (max-width:1400px){
+    .progress-bar-animated{
+        width: 750px;
+    }
+}
+@media only screen and (max-width:1200px){
+    .progress-bar-animated{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .progress-bar-animated{
+        width: 500px;
+    }
+}
+@media only screen and (max-width:650px){
+
+    .progress-bar-animated{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:530px){
+
+    .progress-bar-animated{
+        width: 290px;
+    }
+}
+@media only screen and (max-width:375px){
+
+    .progress-bar-animated{
+        width: 250px;
+    }
+    header{
+        width: auto;
+    }
+}
+@media only screen and (max-width:285px){
+
+    .progress-bar-animated{
+        width: 200px;
+    }
+    header{
+        width: auto;
+    }
 }
 .html{
     background: aqua;

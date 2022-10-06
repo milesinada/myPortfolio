@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li a{
+    text-decoration: none;
+}
+img{
+    height: 250px;
+    width: auto;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap
+}
